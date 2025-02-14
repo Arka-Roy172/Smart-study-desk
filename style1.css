@@ -11,8 +11,8 @@ body {
     background-color: black;
     color: white;
     line-height: 1.6;
-    font-size: 16px;
-    padding-top: 60px; /* Adjust for sticky nav */
+    font-size: 2vw; /* Using vw for font size */
+    padding-top: 6vh; /* Using vh for padding */
 }
 
 a {
@@ -37,26 +37,24 @@ ul {
 .navbar ul {
     display: flex;
     justify-content: center;
-    padding: 15px 0;
+    padding: 2vh 0; /* Using vh for padding */
     margin: 0;
 }
 
 .navbar li {
-    margin: 0 20px;
+    margin: 0 3vw; /* Using vw for margin */
 }
 
 .navbar a {
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 3vw; /* Using vw for font size */
     transition: color 0.3s ease;
 }
 
 .navbar a:hover {
     color: #ff5733;
-    font-size: 1.5rem;
-    transition: all 1000ms;
-    font-size-adjust: 20px;
+    font-size: 3.5vw; /* Slightly increase size on hover */
 }
 
 /* Hero Section */
@@ -64,23 +62,22 @@ ul {
     background: linear-gradient(to bottom right, #0d0c0c, rgb(22, 21, 21), #903838);
     color: white;
     text-align: center;
-    padding: 120px 200px; /* Increased padding for better hero display */
-    padding-bottom: 230px;
+    padding: 10vh 5vw; /* Using vh and vw for padding */
 }
 
 .hero-section h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
+    font-size: 7vw; /* Responsive font size */
+    margin-bottom: 2vh;
 }
 
 .hero-section p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+    font-size: 2.5vw; /* Responsive font size */
+    margin-bottom: 3vh;
 }
 
 .cta-button {
-    padding: 15px 30px;
-    font-size: 1.2rem;
+    padding: 2vh 5vw;
+    font-size: 2vw;
     background-color: #ff5733;
     box-shadow: 5px 3px #333;
     color: white;
@@ -92,34 +89,17 @@ ul {
 
 .cta-button:hover {
     background-color: #591703;
-    font-size: 1.4rem;
-    transition: all 1200ms;
-    font-size-adjust: 20px;
-    color: rgb(160, 136, 136);
-    font-weight: bold;
-}
-
-#headings {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 500px;
-    display: block;
-    color: #785757;
-    background-color: #b69b9b;
-    font-weight: bolder;
-    font-size: 65px;
+    font-size: 2.5vw;
 }
 
 /* Product Features Section */
 .features {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 30px;
-    padding: 60px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Makes it more flexible */
+    gap: 5vw;
+    padding: 10vh 5vw;
     text-align: center;
     background-color: #b69b9b;
-    padding-top: 60px;
-    padding-bottom: 150px;
 }
 
 .feature_text {
@@ -127,74 +107,51 @@ ul {
 }
 
 .features .feature {
-    padding: 70px 80px;
+    padding: 5vh 5vw;
     background-color: #f1f1f1;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    margin-left: 150px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .features img {
-    max-width: 80px;
+    max-width: 20vw;
     height: auto;
-    margin-bottom: 15px;
-}
-
-.feature:hover {
-    font-size: 1.55rem;
-    transition: all 1500ms;
-    color: #18e2af;
+    margin-bottom: 2vh;
 }
 
 .features p {
     font-weight: bold;
-    font-size: 1.1rem;
-}
-
-.take {
-    font-size: 30px;
-    color: #e4beb2;
-    font-weight: bold;
-}
-
-#ben-head {
-    font-size: 65px;
+    font-size: 2vw;
 }
 
 /* Benefits Section */
 .benefits {
-    padding-top: 60px;
-    padding-bottom: 150px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     text-align: center;
     background-color: #5e4141;
     color: #e4beb2;
 }
 
 .benefits h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 4vw;
+    margin-bottom: 3vh;
 }
 
 .benefits ul {
-    font-size: 1.1rem;
+    font-size: 2vw;
 }
 
 .benefits li {
-    padding-bottom: 50px;
-    margin: 10px;
+    padding-bottom: 3vh;
+    margin: 2vh 0;
 }
 
 .benefits li:hover {
-    font-size: 40px;
+    font-size: 3vw;
     text-shadow: 5px 6px rgb(69, 54, 54);
-    transition: all 1200ms;
-    font-size-adjust: 20px;
-}
-
-#work-head {
-    font-size: 65px;
-    padding-bottom: 35px;
 }
 
 /* How It Works Section */
@@ -202,19 +159,19 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 60px;
-    padding-bottom: 180px;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
 }
 
 .how-it-works ol {
-    font-size: 1.8rem;
+    font-size: 2.5vw;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 80%;
 }
 
 .how-it-works li {
-    margin-bottom: 35px;
-    padding-left: 35px;
+    margin-bottom: 3vh;
+    padding-left: 2vw;
     position: relative;
 }
 
@@ -223,59 +180,41 @@ ul {
     position: absolute;
     left: 0;
     color: #ff5733;
-    font-size: 1.5rem;
+    font-size: 2vw;
 }
 
 .how-it-works li:hover {
-    font-size: 40px;
+    font-size: 3vw;
     color: darkgray;
     text-shadow: 2px 2px rgb(93, 87, 87);
-    transition: all 1200ms;
-    font-size-adjust: 20px;
 }
 
 /* Pricing Section */
-#price-head {
-    font-size: 65px;
-    background-color: green;
-}
-
 .pricing {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 60px 20px;
-    padding-bottom: 180px;
+    padding: 10vh 5vw;
 }
 
 .pricing h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 4vw;
+    margin-bottom: 2vh;
 }
 
 .pricing p {
-    font-size: 1.6rem;
-    margin-bottom: 30px;
-    text-shadow: 4px 4px #0d0c0c;
-}
-
-.prices {
-    padding-top: 70px;
-    padding-bottom: 50px;
-    color: red;
-    text-shadow: 3px 3px #0d0c0c;
+    font-size: 2.5vw;
+    margin-bottom: 3vh;
 }
 
 .pricing .cta-button {
-    font-size: 1.2rem;
-    margin-top: 39px;
-    margin-bottom: 50px;
-    padding: 15px 30px;
+    font-size: 2vw;
+    margin-top: 3vh;
+    padding: 2vh 5vw;
     background-color: #de310b;
     box-shadow: 5px 5px rgb(31, 11, 1);
     color: white;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
 }
 
 .pricing .cta-button:hover {
@@ -283,17 +222,10 @@ ul {
 }
 
 /* Comparison Table Section */
-#compare-head {
-    font-size: 55px;
-    color: white;
-    padding-bottom: 50px;
-}
-
 .comparison {
-    padding: 60px 20px;
+    padding: 10vh 5vw;
     text-align: center;
     background-color: black;
-    padding-bottom: 180px;
 }
 
 .comparison table {
@@ -303,9 +235,9 @@ ul {
 
 .comparison th,
 .comparison td {
-    padding: 12px 20px;
+    padding: 2vw;
     border: 2px solid #ddd;
-    font-size: 1.5rem;
+    font-size: 2.5vw;
     text-align: center;
 }
 
@@ -315,20 +247,16 @@ ul {
 }
 
 /* Demo Section */
-#demo-head {
-    font-size: 55px;
-}
-
 .demo {
     background-color: #01041f;
     text-align: center;
-    padding-top: 65px;
-    padding-bottom: 150px;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
 }
 
 .demo h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 4vw;
+    margin-bottom: 3vh;
 }
 
 .demo video {
@@ -337,35 +265,28 @@ ul {
 }
 
 /* FAQs Section */
-#faq-head {
-    font-size: 50px;
-    color: rgb(0, 183, 255);
-    text-shadow: 1px 2px blue;
-    text-align: center;
-}
-
 .faqs {
-    padding-top: 60px;
-    padding-bottom: 150px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     background-color: rgb(223, 213, 213);
 }
 
 .faqs h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 4vw;
+    margin-bottom: 3vh;
 }
 
 .faqs details {
     background-color: #fff;
-    padding: 15px;
-    margin: 15px 0;
+    padding: 3vh;
+    margin: 3vh 0;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .faqs summary {
-    font-size: 1.8rem;
-    padding-bottom: 30px;
+    font-size: 2.5vw;
+    padding-bottom: 2vh;
     font-weight: bold;
     color: #18e2af;
 }
@@ -373,52 +294,42 @@ ul {
 .faqs p {
     color: #0d0c0c;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.8vw;
 }
 
 /* Contact Section */
-#contact-head {
-    font-size: 40px;
-    padding-bottom: 40px;
-}
-
 .contact {
     text-align: center;
-    padding: 60px 20px;
+    padding: 10vh 5vw;
     background-color: #333;
     color: white;
 }
 
 .contact p {
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 3vw;
+    padding-bottom: 2vh;
 }
 
 .contact button {
-    font-size: 1.2rem;
-    padding: 15px 30px;
+    font-size: 2vw;
+    padding: 2vh 5vw;
     background-color: #ff5733;
     color: white;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.contact button:hover {
-    background-color: #e64a19;
 }
 
 /* Footer */
 footer {
     background-color: #333;
     color: white;
-    padding: 30px 20px;
+    padding: 5vh 5vw;
     text-align: center;
 }
 
 footer a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 2vw;
     font-weight: bold;
 }
 
@@ -426,40 +337,50 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
-@media (max-width: 950px) {
-    .features {
-        grid-template-columns: 1fr 1fr;
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 4vw;
+        padding-top: 8vh;
     }
 
-    .hero-section h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero-section p {
-        font-size: 1rem;
-    }
-
-    .cta-button {
-        font-size: 1rem;
-        padding: 12px 25px;
-    }
-
-    .pricing .cta-button {
-        font-size: 1rem;
-        padding: 12px 25px;
-    }
-
-    .comparison table {
-        font-size: 0.9rem;
-    }
-
-    /* Adjust navbar layout for smaller screens */
     .navbar ul {
         flex-direction: column;
     }
-    
+
     .navbar li {
-        margin: 10px 0;
+        margin: 1vw 0;
+    }
+
+    .hero-section {
+        padding: 15vh 5vw;
+    }
+
+    .hero-section h1 {
+        font-size: 8vw;
+    }
+
+    .features {
+        grid-template-columns: 1fr 1fr;
+        gap: 10vw;
+    }
+
+    .pricing .cta-button {
+        font-size: 3vw;
+        padding: 3vh 6vw;
+    }
+
+    .comparison th, .comparison td {
+        font-size: 3vw;
+        padding: 3vw;
+    }
+
+    .faq-head, .work-head, .demo-head {
+        font-size: 6vw;
+    }
+
+    .cta-button {
+        padding: 3vh 5vw;
+        font-size: 4vw;
     }
 }
