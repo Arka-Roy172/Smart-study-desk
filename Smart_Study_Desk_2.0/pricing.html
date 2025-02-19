@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing - Your Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/stylepric.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="benefits.html">Benefits</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="comparison.html">Comparison</a></li>
+      <li><a href="demo.html">Demo</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+<!-- 
+  <section>
+    <h1>Our Pricing Plans</h1>
+    <p>Choose a plan that best suits your needs.</p>
+    <div class="pricing-plan">
+      <h2>Basic Plan</h2>
+      <p>$19.99/month</p>
+      <p>Includes basic features.</p>
+    </div>
+    <div class="pricing-plan">
+      <h2>Pro Plan</h2>
+      <p>$39.99/month</p>
+      <p>Includes all advanced features.</p>
+    </div>
+    <div class="pricing-plan">
+      <h2>Enterprise Plan</h2>
+      <p>$79.99/month</p>
+      <p>Custom solutions for large organizations.</p>
+    </div>
+  </section> -->
+  <!-- 7. Pricing & Subscription Plans Section -->
+  <section id="pricing" class="pricing">
+    <h1 id="price-head">Pricing</h1>
+    <h2 class="prices">Desk + Chair: $499</h2>
+    <p>AI Focus Assistant Subscription: $9.99/month</p>
+    <!-- <button class="cta-button">Pre-Order Now</button> -->
+    <button class="cta-button" onclick="preOrder()">Pre-Order Now</button>
+  </section>
+  
+  <div id="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Pre-order Now!</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

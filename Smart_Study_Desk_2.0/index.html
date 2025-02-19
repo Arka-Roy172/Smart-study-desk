@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Your Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styleind.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="benefits.html">Benefits</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="comparison.html">Comparison</a></li>
+      <li><a href="demo.html">Demo</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+    <h1>Transform Your Workspace: Smarter, Healthier, More Productive</h1>
+    <p>An AI-powered desk and chair designed to boost focus, improve posture, and optimize productivity.</p>
+    <button class="cta-button" onclick="preOrder()">Pre-Order Now</button>
+   </div>
+  </section>
+  <!-- <header id="hero" class="hero-section">
+    <div class="hero-content">
+      <h1 style="padding-bottom:35px; padding-top: 20px ;">Transform Your Workspace: Smarter, Healthier, More Productive</h1>
+      <p style="padding-bottom:15px; padding-top: 10px ; font-weight: 600;" >An AI-powered desk and chair designed to boost focus, improve posture, and optimize productivity.</p>
+      <button class="cta-button" style="font-weight: bold;">Pre-Order Today</button>
+    </div>
+  </header> -->
+
+  <!-- Modal for Pre-order -->
+  <div id="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Pre-order Now!</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
